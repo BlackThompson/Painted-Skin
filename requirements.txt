@@ -1,0 +1,6 @@
+gradio==4.1.2
+modelscope==1.9.4
+moviepy==1.0.3
+natsort==8.4.0
+opencv_python==4.8.1.78
+torch==1.13.1+cu116
