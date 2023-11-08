@@ -2,7 +2,7 @@
 
 > Welcome to the 🎭 Painted Skin 🎭! Get ready to have some fun with faces. 😄
 
- ![License](https://img.shields.io/badge/license-Apache 2.0-blue)
+ ![License](https://img.shields.io/badge/license-Apache2.0-blue)
 
 ## 🐾 Preview
 
