@@ -141,21 +141,21 @@ def replace_video(video_path, user_path):
     return save_path
 
 
-if __name__ == '__main__':
-    # .py文件所在路径
-    BASE = os.path.dirname(__file__)
-    # .ipynb文件所在路径
-    # BASE = os.getcwd()
-    # 设置工作路径为当前脚本所在的路径
-    os.chdir(BASE)
-
-    user_path = r'./input/Trump.jpg'
-    template_dir = r'./middle'
-    save_dir = r'./middle_after_swap'
-    output_dir = r'./output'
-    video_path = r'./input/zhan.mp4'
-
-    # 将视频分割成图片和音频
-    fps = video2mp3_img(video_path=video_path, save_path=template_dir)
-    replace_all_img(template_dir=template_dir, user_path=user_path, save_dir=save_dir)
-    img2mp4(save_name='Zhan_Trump', output_dir=output_dir, img_folder=save_dir, mp3_folder=template_dir, fps=fps)
+# if __name__ == '__main__':
+#     # .py文件所在路径
+#     BASE = os.path.dirname(__file__)
+#     # .ipynb文件所在路径
+#     # BASE = os.getcwd()
+#     # 设置工作路径为当前脚本所在的路径
+#     os.chdir(BASE)
+#
+#     user_path = r'./input/Trump.jpg'
+#     template_dir = r'./middle'
+#     save_dir = r'./middle_after_swap'
+#     output_dir = r'./output'
+#     video_path = r'./input/zhan.mp4'
+#
+#     # 将视频分割成图片和音频
+#     fps = video2mp3_img(video_path=video_path, save_path=template_dir)
+#     replace_all_img(template_dir=template_dir, user_path=user_path, save_dir=save_dir)
+#     img2mp4(save_name='Zhan_Trump', output_dir=output_dir, img_folder=save_dir, mp3_folder=template_dir, fps=fps)

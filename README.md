@@ -13,13 +13,13 @@
 ## 🪄 How to use
 
 1. **Clone the Repository:**
-    
+   
     ```bash
     git clone https://github.com/BlackThompson/Painted-Skin.git
     ```
     
 2. **Create a New Environment and Install Dependencies:**
-    
+   
     - Note: Python version should be >=3.8
     - Note: The versions of `torch`, `torchvision`, and `torchaudio` should align with your CUDA version.
     
@@ -50,6 +50,7 @@ This tool allows you to perform a face swap. Simply follow these steps:
    - Keep in mind that face swapping in videos might take some time, so be patient! 😅
 
 ## ❗ Important Note
+- If you are able to load `src_picture` but encounter issues with loading `src_video`, please ensure that you have downloaded  [FFmpeg](https://ffmpeg.org/download.html) and correctly added its `bin` directory to your system path.
 - Ensure that `target_picture` is uploaded for the face swap to work effectively.
 
 Enjoy swapping faces and have a good laugh! 😆

@@ -61,4 +61,5 @@ demo = gr.Interface(fn=face_swap,
                     )
 
 if __name__ == "__main__":
+    # you can set share=False to disable the share button
     demo.launch(share=True)
