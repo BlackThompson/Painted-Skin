@@ -6,9 +6,7 @@
 
 ## 🐾 Preview
 
-![image-20231108160501352](https://black-thompson.oss-cn-beijing.aliyuncs.com/img/image-20231108160501352.png)
-
-
+![image-20231109170433797](https://black-thompson.oss-cn-beijing.aliyuncs.com/img/image-20231109170433797.png)
 
 ## 🪄 How to use
 
